@@ -89,7 +89,7 @@ global:
   # Spinnaker Gate URL configuration; url overwhich spinnaker gate will be accessed
   spinGate:
     protocol: https
-    host: spingate.commongate.opsmx.com
+    host: oesgate.commongate.opsmx.com
     #port: 8084
 
     ingress:
