@@ -23,7 +23,7 @@ services:
   {{- end }}
   user: {}
 cors:
-  allowed-origins-pattern: ^https?://(?:localhost|{{ .Values.oesUI.host }}|opsmx.com)(?::[1-9]\d*)?/?
+  allowed-origins-pattern: ^https?://(?:localhost|{{ .Values.oesUI.host }}|{{ .Values.global.spinDeck.host }}|opsmx.com)(?::[1-9]\d*)?/?
 ldap:
   enabled: {{ .Values.global.ldap.enabled }}
   managerDn: {{ .Values.global.ldap.managerDn }}

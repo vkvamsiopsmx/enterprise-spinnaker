@@ -54,6 +54,9 @@ spec:
         - name: gate-volume
           mountPath: /opt/spinnaker/config/gate.yml
           subPath: gate.yml
+        - name: gate-volume
+          mountPath: /opt/spinnaker/config/spinnaker.yml
+          subPath: spinnaker.yml
         - mountPath: /opt/spinnaker/config/bootstrap.yml
           name: bootstrap-volume
           subPath: bootstrap.yml
